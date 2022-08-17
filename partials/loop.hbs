@@ -7,6 +7,9 @@
         <div class="gh-card-excerpt">{{excerpt}}</div>
 
         <footer class="gh-card-meta">
+            {{#if primary_tag}}
+                <a class="gh-article-tag" href="{{primary_tag.url}}">{{primary_tag.name}}</a>
+            {{/if}}
             <time class="gh-card-date" datetime="{{date format="YYYY-MM-DD"}}">{{date}}</time>
             <span class="gh-card-duration">{{reading_time}}</span>
             {{#if @site.comments_enabled}}
