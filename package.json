@@ -1,7 +1,7 @@
 {
-    "name": "journal",
-    "description": "A Ghost theme",
-    "version": "1.0.0",
+    "name": "journal-minimalist",
+    "description": "Minimalist version of Ghost's Journal theme",
+    "version": "0.0.2",
     "private": true,
     "engines": {
         "ghost": ">=5.0.0"
