@@ -504,6 +504,18 @@
     margin-left: 0.8rem;
 }
 
+.custom-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    margin: 2rem 0.5rem;
+}
+
+.custom-icon > svg {
+    position: relative;
+}
+
 @media (max-width: 767px) {
     .gh-latest {
         margin-bottom: 8rem;
